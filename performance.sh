@@ -20,7 +20,9 @@ echo "Testing UDP with Bandwidth: ${BANDWIDTH[@]} Mbits/sec"
 
 for i in "${BANDWIDTH[@]}";
 do
-	echo "Stop the server and run it with this command:"
+	echo
+	echo "Starting to test with ${i}m"
+	echo "Stop running processes at the server and run this command:"
 	echo "$ iperf -s -u -i 1"
 	echo "ok? [y/N] "
 	read CONFIRM
@@ -28,6 +30,8 @@ do
 	if [[ "$CONFIRM" = "y" ]]; then
 		echo "Testing with ${i}m."
 		iperf -c $SERVER -u -t 15 -b "${i}m" > /dev/null
+		echo "Collect the output at the server!"
+		read CONFIRM
 	else
 		echo "Test is spoiled! Exiting.."
 		exit 1 
