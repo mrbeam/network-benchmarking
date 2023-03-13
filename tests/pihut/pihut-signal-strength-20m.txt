@@ -1,0 +1,14 @@
+$ ./signal-strength-test.sh 
+Connected to MrBeam-BABA.
+Here are signal levels..
+Sample #1: 46
+Sample #2: 45
+Sample #3: 40
+Sample #4: 43
+Sample #5: 43
+Sample #6: 43
+Sample #7: 46
+Sample #8: 44
+Sample #9: 44
+Sample #10: 44
+Average Signal Level is: 43

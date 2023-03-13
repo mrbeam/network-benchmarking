@@ -1,0 +1,90 @@
+$ ./performance.sh         
+Enter the server IP:
+10.42.0.1
+Connecting the server: 10.42.0.1. ok? [y/N] 
+y
+Performance tests are starting..
+Please
+ - Follow instructions to run server commands one by one
+ - Save output of server command
+Testing UDP with Bandwidth: 1 10 25 35 50 75 100 Mbits/sec
+
+Starting to test with 1m
+Stop running processes at the server and run this command:
+$ iperf -s -u -i 1
+ok? [y/N] 
+y
+Testing with 1m.
+Collect the output at the server!
+
+
+Starting to test with 10m
+Stop running processes at the server and run this command:
+$ iperf -s -u -i 1
+ok? [y/N] 
+y
+Testing with 10m.
+Collect the output at the server!
+
+
+Starting to test with 25m
+Stop running processes at the server and run this command:
+$ iperf -s -u -i 1
+ok? [y/N] 
+y
+Testing with 25m.
+Collect the output at the server!
+
+
+Starting to test with 35m
+Stop running processes at the server and run this command:
+$ iperf -s -u -i 1
+ok? [y/N] 
+y
+Testing with 35m.
+Collect the output at the server!
+
+
+Starting to test with 50m
+Stop running processes at the server and run this command:
+$ iperf -s -u -i 1
+ok? [y/N] 
+y
+Testing with 50m.
+Collect the output at the server!
+
+
+Starting to test with 75m
+Stop running processes at the server and run this command:
+$ iperf -s -u -i 1
+ok? [y/N] 
+y
+Testing with 75m.
+Collect the output at the server!
+
+
+Starting to test with 100m
+Stop running processes at the server and run this command:
+$ iperf -s -u -i 1
+ok? [y/N] 
+y
+Testing with 100m.
+Collect the output at the server!
+
+
+UDP tests are completed. Maximum throughput test is starting.
+Continue..
+
+
+Stop the server and run it with this command (without -u):
+$ iperf -s -i 1
+ok? [y/N] 
+y
+Maximum throughput test starting.
+------------------------------------------------------------
+Client connecting to 10.42.0.1, TCP port 5001
+TCP window size: 85.0 KByte (default)
+------------------------------------------------------------
+[  1] local 10.42.0.236 port 36496 connected with 10.42.0.1 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-60.4888 sec   266 MBytes  36.9 Mbits/sec

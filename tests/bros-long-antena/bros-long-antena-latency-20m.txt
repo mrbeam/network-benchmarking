@@ -1,0 +1,30 @@
+$ ./latency.sh 
+Enter the target IP:
+10.42.0.1
+Connecting the target: 10.42.0.1. ok? [y/N] 
+y
+Latency tests are starting..
+Testing with ping..
+PING 10.42.0.1 (10.42.0.1) 56(84) bytes of data.
+64 bytes from 10.42.0.1: icmp_seq=1 ttl=64 time=9.96 ms
+64 bytes from 10.42.0.1: icmp_seq=2 ttl=64 time=3.98 ms
+64 bytes from 10.42.0.1: icmp_seq=3 ttl=64 time=4.60 ms
+64 bytes from 10.42.0.1: icmp_seq=4 ttl=64 time=126 ms
+64 bytes from 10.42.0.1: icmp_seq=5 ttl=64 time=101 ms
+64 bytes from 10.42.0.1: icmp_seq=6 ttl=64 time=35.4 ms
+64 bytes from 10.42.0.1: icmp_seq=7 ttl=64 time=1.98 ms
+64 bytes from 10.42.0.1: icmp_seq=8 ttl=64 time=2.21 ms
+64 bytes from 10.42.0.1: icmp_seq=9 ttl=64 time=1.90 ms
+64 bytes from 10.42.0.1: icmp_seq=10 ttl=64 time=6.67 ms
+
+--- 10.42.0.1 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9013ms
+rtt min/avg/max/mdev = 1.897/29.408/126.236/43.546 ms
+
+You can see round-trip-time min/avg/max/mdev.
+
+Testing with traceroute..
+traceroute to 10.42.0.1 (10.42.0.1), 30 hops max, 60 byte packets
+ 1  _gateway (10.42.0.1)  3.357 ms  3.540 ms  3.938 ms
+
+You can refer the output of ping for calculation.
