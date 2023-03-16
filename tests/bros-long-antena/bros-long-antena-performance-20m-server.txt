@@ -4,25 +4,24 @@ Server listening on UDP port 5001
 Receiving 1470 byte datagrams
 UDP buffer size:  176 KByte (default)
 ------------------------------------------------------------
-[  3] local 10.42.0.1 port 5001 connected with 10.42.0.236 port 59884 (peer 2.1.5)
+[  3] local 10.42.0.1 port 5001 connected with 10.42.0.236 port 41224 (peer 2.1.5)
 [ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
-[  3]  0.0- 1.0 sec   128 KBytes  1.05 Mbits/sec   6.707 ms    1/   90 (1.1%)
-[  3]  1.0- 2.0 sec  66.0 KBytes   541 Kbits/sec  19.093 ms    7/   53 (13%)
-[  3]  2.0- 3.0 sec   158 KBytes  1.29 Mbits/sec   9.299 ms    5/  115 (4.3%)
-[  3]  3.0- 4.0 sec   125 KBytes  1.02 Mbits/sec   4.099 ms    0/   87 (0%)
-[  3]  4.0- 5.0 sec   106 KBytes   870 Kbits/sec  12.889 ms    0/   74 (0%)
-[  3]  5.0- 6.0 sec   138 KBytes  1.13 Mbits/sec   6.111 ms    0/   96 (0%)
-[  3]  6.0- 7.0 sec  67.5 KBytes   553 Kbits/sec  29.426 ms    9/   56 (16%)
-[  3]  7.0- 8.0 sec  12.9 KBytes   106 Kbits/sec  30.609 ms    9/   18 (50%)
-[  3]  8.0- 9.0 sec  0.00 Bytes  0.00 bits/sec  30.609 ms    0/    0 (nan%)
-[  3]  9.0-10.0 sec  1.44 KBytes  11.8 Kbits/sec  199.818 ms    0/    1 (0%)
-[  3] 10.0-11.0 sec  0.00 Bytes  0.00 bits/sec  199.818 ms    0/    0 (nan%)
-[  3] 11.0-12.0 sec  0.00 Bytes  0.00 bits/sec  199.818 ms    0/    0 (nan%)
-[  3] 12.0-13.0 sec  0.00 Bytes  0.00 bits/sec  199.818 ms    0/    0 (nan%)
-[  3] 13.0-14.0 sec   103 KBytes   847 Kbits/sec  90.104 ms   14/   86 (16%)
-[  3] 14.0-15.0 sec   102 KBytes   835 Kbits/sec   9.919 ms    0/   71 (0%)
-[  3] 15.0-16.0 sec  63.2 KBytes   517 Kbits/sec  20.019 ms    0/   44 (0%)
-[  3]  0.0-16.4 sec  1.05 MBytes   540 Kbits/sec  95.213 ms   45/  797 (5.6%)
+[  3]  0.0- 1.0 sec   119 KBytes   976 Kbits/sec  12.412 ms    1/   84 (1.2%)
+[  3]  1.0- 2.0 sec   128 KBytes  1.05 Mbits/sec   2.687 ms    0/   89 (0%)
+[  3]  2.0- 3.0 sec   121 KBytes   988 Kbits/sec   6.364 ms    0/   84 (0%)
+[  3]  3.0- 4.0 sec   123 KBytes  1.01 Mbits/sec   3.220 ms    0/   86 (0%)
+[  3]  4.0- 5.0 sec   121 KBytes   988 Kbits/sec   7.344 ms    0/   84 (0%)
+[  3]  5.0- 6.0 sec   116 KBytes   953 Kbits/sec  12.266 ms    0/   81 (0%)
+[  3]  6.0- 7.0 sec   128 KBytes  1.05 Mbits/sec   2.892 ms    1/   90 (1.1%)
+[  3]  7.0- 8.0 sec   121 KBytes   988 Kbits/sec   5.538 ms    0/   84 (0%)
+[  3]  8.0- 9.0 sec   123 KBytes  1.01 Mbits/sec   6.605 ms    0/   86 (0%)
+[  3]  9.0-10.0 sec   122 KBytes  1000 Kbits/sec   6.332 ms    0/   85 (0%)
+[  3] 10.0-11.0 sec  99.1 KBytes   811 Kbits/sec   9.283 ms   16/   85 (19%)
+[  3] 11.0-12.0 sec   119 KBytes   976 Kbits/sec   5.356 ms    0/   83 (0%)
+[  3] 12.0-13.0 sec   122 KBytes  1000 Kbits/sec   6.078 ms    0/   85 (0%)
+[  3] 13.0-14.0 sec   123 KBytes  1.01 Mbits/sec   8.773 ms    0/   86 (0%)
+[  3] 14.0-15.0 sec   123 KBytes  1.01 Mbits/sec  10.710 ms    0/   86 (0%)
+[  3]  0.0-15.0 sec  1.77 MBytes   987 Kbits/sec  10.611 ms   18/ 1279 (1.4%)
 read failed: Connection refused
 ^Cpi@MrBeam-BABA:~\> iperf -s -u -i 1
 ------------------------------------------------------------
@@ -30,23 +29,33 @@ Server listening on UDP port 5001
 Receiving 1470 byte datagrams
 UDP buffer size:  176 KByte (default)
 ------------------------------------------------------------
-[  3] local 10.42.0.1 port 5001 connected with 10.42.0.236 port 40266 (peer 2.1.5)
+[  3] local 10.42.0.1 port 5001 connected with 10.42.0.236 port 53206 (peer 2.1.5)
 [ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
-[  3]  0.0- 1.0 sec  38.8 KBytes   318 Kbits/sec  28.470 ms   22/   49 (45%)
-[  3]  1.0- 2.0 sec   138 KBytes  1.13 Mbits/sec  30.241 ms   32/  128 (25%)
-[  3]  2.0- 3.0 sec   368 KBytes  3.01 Mbits/sec  17.447 ms   26/  282 (9.2%)
-[  3]  3.0- 4.0 sec   174 KBytes  1.42 Mbits/sec  13.089 ms   37/  158 (23%)
-[  3]  4.0- 5.0 sec   162 KBytes  1.33 Mbits/sec  20.160 ms   20/  133 (15%)
-[  3]  5.0- 6.0 sec   227 KBytes  1.86 Mbits/sec   9.584 ms   19/  177 (11%)
-[  3]  6.0- 7.0 sec   235 KBytes  1.93 Mbits/sec  18.378 ms   14/  178 (7.9%)
-[  3]  7.0- 8.0 sec   280 KBytes  2.29 Mbits/sec  14.407 ms   17/  212 (8%)
-[  3]  8.0- 9.0 sec   248 KBytes  2.03 Mbits/sec  17.017 ms   29/  202 (14%)
-[  3]  9.0-10.0 sec   370 KBytes  3.03 Mbits/sec  14.137 ms    9/  267 (3.4%)
-[  3] 10.0-11.0 sec   139 KBytes  1.14 Mbits/sec  16.046 ms   20/  117 (17%)
-[  3] 11.0-12.0 sec   185 KBytes  1.52 Mbits/sec  13.146 ms   14/  143 (9.8%)
-[  3] 12.0-13.0 sec   149 KBytes  1.22 Mbits/sec  23.613 ms   13/  117 (11%)
-[  3] 13.0-14.0 sec  61.7 KBytes   506 Kbits/sec  53.375 ms   26/   69 (38%)
-[  3]  0.0-14.9 sec  2.85 MBytes  1.61 Mbits/sec  24.900 ms  323/ 2355 (14%)
+[  3]  0.0- 1.0 sec   187 KBytes  1.53 Mbits/sec  18.864 ms   22/  152 (14%)
+[  3]  1.0- 2.0 sec  94.7 KBytes   776 Kbits/sec  21.153 ms   15/   81 (19%)
+[  3]  2.0- 3.0 sec   177 KBytes  1.45 Mbits/sec   4.132 ms   13/  136 (9.6%)
+[  3]  3.0- 4.0 sec   312 KBytes  2.55 Mbits/sec  24.261 ms   27/  244 (11%)
+[  3]  4.0- 5.0 sec   243 KBytes  1.99 Mbits/sec   4.587 ms   17/  186 (9.1%)
+[  3]  5.0- 6.0 sec   457 KBytes  3.74 Mbits/sec  10.184 ms   36/  354 (10%)
+[  3]  6.0- 7.0 sec   230 KBytes  1.88 Mbits/sec  10.134 ms   20/  180 (11%)
+[  3]  7.0- 8.0 sec   116 KBytes   953 Kbits/sec  26.344 ms    6/   87 (6.9%)
+[  3] 7.00-8.00 sec  5 datagrams received out-of-order
+[  3]  8.0- 9.0 sec   125 KBytes  1.02 Mbits/sec  21.828 ms    5/   92 (5.4%)
+[  3] 8.00-9.00 sec  8 datagrams received out-of-order
+[  3]  9.0-10.0 sec   109 KBytes   894 Kbits/sec  41.558 ms   35/  111 (32%)
+[  3] 10.0-11.0 sec  35.9 KBytes   294 Kbits/sec  61.304 ms   22/   47 (47%)
+[  3] 10.00-11.00 sec  1 datagrams received out-of-order
+[  3] 11.0-12.0 sec   159 KBytes  1.31 Mbits/sec  29.989 ms    2/  113 (1.8%)
+[  3] 11.00-12.00 sec  10 datagrams received out-of-order
+[  3] 12.0-13.0 sec   159 KBytes  1.31 Mbits/sec  15.084 ms   22/  133 (17%)
+[  3] 13.0-14.0 sec   258 KBytes  2.12 Mbits/sec  11.145 ms   24/  204 (12%)
+[  3] 14.0-15.0 sec  87.6 KBytes   717 Kbits/sec  42.840 ms    5/   66 (7.6%)
+[  3] 14.00-15.00 sec  2 datagrams received out-of-order
+[  3] 15.0-16.0 sec  40.2 KBytes   329 Kbits/sec  53.312 ms    2/   30 (6.7%)
+[  3] 16.0-17.0 sec  14.4 KBytes   118 Kbits/sec  67.228 ms    0/   10 (0%)
+[  3] 17.0-18.0 sec  33.0 KBytes   270 Kbits/sec  86.674 ms    1/   24 (4.2%)
+[  3]  0.0-18.0 sec  2.77 MBytes  1.29 Mbits/sec  81.434 ms  274/ 2251 (12%)
+[  3] 0.00-18.04 sec  26 datagrams received out-of-order
 read failed: Connection refused
 ^Cpi@MrBeam-BABA:~\> iperf -s -u -i 1
 ------------------------------------------------------------
@@ -54,25 +63,24 @@ Server listening on UDP port 5001
 Receiving 1470 byte datagrams
 UDP buffer size:  176 KByte (default)
 ------------------------------------------------------------
-[  3] local 10.42.0.1 port 5001 connected with 10.42.0.236 port 58825 (peer 2.1.5)
+[  3] local 10.42.0.1 port 5001 connected with 10.42.0.236 port 43239 (peer 2.1.5)
 [ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
-[  3]  0.0- 1.0 sec   141 KBytes  1.15 Mbits/sec  37.169 ms   15/  113 (13%)
-[  3]  1.0- 2.0 sec  47.4 KBytes   388 Kbits/sec  41.896 ms   13/   46 (28%)
-[  3]  2.0- 3.0 sec   270 KBytes  2.21 Mbits/sec  35.906 ms   23/  211 (11%)
-[  3]  3.0- 4.0 sec   161 KBytes  1.32 Mbits/sec  13.907 ms   17/  129 (13%)
-[  3]  4.0- 5.0 sec  79.0 KBytes   647 Kbits/sec   9.801 ms   14/   69 (20%)
-[  3]  5.0- 6.0 sec  0.00 Bytes  0.00 bits/sec   9.801 ms    0/    0 (nan%)
-[  3]  6.0- 7.0 sec  0.00 Bytes  0.00 bits/sec   9.801 ms    0/    0 (nan%)
-[  3]  7.0- 8.0 sec  2.87 KBytes  23.5 Kbits/sec  228.636 ms    0/    2 (0%)
-[  3]  8.0- 9.0 sec  45.9 KBytes   376 Kbits/sec  56.513 ms   20/   52 (38%)
-[  3]  9.0-10.0 sec  33.0 KBytes   270 Kbits/sec  201.018 ms    2/   25 (8%)
-[  3] 10.0-11.0 sec  15.8 KBytes   129 Kbits/sec  115.584 ms   12/   23 (52%)
-[  3] 11.0-12.0 sec  0.00 Bytes  0.00 bits/sec  115.584 ms    0/    0 (nan%)
-[  3] 12.0-13.0 sec  1.44 KBytes  11.8 Kbits/sec  292.268 ms   12/   13 (92%)
-[  3] 13.0-14.0 sec  23.0 KBytes   188 Kbits/sec  148.119 ms    0/   16 (0%)
-[  3] 14.0-15.0 sec  35.9 KBytes   294 Kbits/sec  61.119 ms    0/   25 (0%)
-[  3] 15.0-16.0 sec  31.6 KBytes   259 Kbits/sec  143.339 ms    8/   30 (27%)
-[  3]  0.0-16.7 sec   907 KBytes   445 Kbits/sec  234.275 ms  149/  781 (19%)
+[  3]  0.0- 1.0 sec   299 KBytes  2.45 Mbits/sec  18.394 ms   18/  226 (8%)
+[  3]  1.0- 2.0 sec   237 KBytes  1.94 Mbits/sec  12.237 ms   26/  191 (14%)
+[  3]  2.0- 3.0 sec   412 KBytes  3.38 Mbits/sec   5.265 ms   15/  302 (5%)
+[  3]  3.0- 4.0 sec   606 KBytes  4.96 Mbits/sec   4.822 ms   22/  444 (5%)
+[  3]  4.0- 5.0 sec   640 KBytes  5.24 Mbits/sec   5.748 ms   19/  465 (4.1%)
+[  3]  5.0- 6.0 sec   574 KBytes  4.70 Mbits/sec   2.987 ms   18/  418 (4.3%)
+[  3]  6.0- 7.0 sec   571 KBytes  4.68 Mbits/sec   3.916 ms   20/  418 (4.8%)
+[  3]  7.0- 8.0 sec   788 KBytes  6.46 Mbits/sec   7.538 ms   22/  571 (3.9%)
+[  3]  8.0- 9.0 sec   568 KBytes  4.66 Mbits/sec  12.879 ms   19/  415 (4.6%)
+[  3]  9.0-10.0 sec   663 KBytes  5.43 Mbits/sec   4.083 ms   16/  478 (3.3%)
+[  3] 10.0-11.0 sec   663 KBytes  5.43 Mbits/sec   5.031 ms   27/  489 (5.5%)
+[  3] 11.0-12.0 sec   606 KBytes  4.96 Mbits/sec   8.287 ms   19/  441 (4.3%)
+[  3] 12.0-13.0 sec   564 KBytes  4.62 Mbits/sec  11.660 ms   18/  411 (4.4%)
+[  3] 13.0-14.0 sec   442 KBytes  3.62 Mbits/sec   6.840 ms   18/  326 (5.5%)
+[  3] 14.0-15.0 sec   313 KBytes  2.56 Mbits/sec   6.007 ms   21/  239 (8.8%)
+[  3]  0.0-15.1 sec  7.80 MBytes  4.32 Mbits/sec   9.841 ms  301/ 5868 (5.1%)
 read failed: Connection refused
 ^Cpi@MrBeam-BABA:~\> iperf -s -u -i 1
 ------------------------------------------------------------
@@ -80,25 +88,29 @@ Server listening on UDP port 5001
 Receiving 1470 byte datagrams
 UDP buffer size:  176 KByte (default)
 ------------------------------------------------------------
-[  3] local 10.42.0.1 port 5001 connected with 10.42.0.236 port 53237 (peer 2.1.5)
+[  3] local 10.42.0.1 port 5001 connected with 10.42.0.236 port 59947 (peer 2.1.5)
 [ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
-[  3]  0.0- 1.0 sec   314 KBytes  2.58 Mbits/sec  31.339 ms   15/  234 (6.4%)
-[  3]  1.0- 2.0 sec   174 KBytes  1.42 Mbits/sec  22.839 ms   19/  140 (14%)
-[  3]  2.0- 3.0 sec   155 KBytes  1.27 Mbits/sec  18.588 ms   22/  130 (17%)
-[  3]  3.0- 4.0 sec   270 KBytes  2.21 Mbits/sec   6.661 ms   18/  206 (8.7%)
-[  3]  4.0- 5.0 sec   215 KBytes  1.76 Mbits/sec  19.494 ms   14/  164 (8.5%)
-[  3]  5.0- 6.0 sec   145 KBytes  1.19 Mbits/sec  23.797 ms   14/  115 (12%)
-[  3]  6.0- 7.0 sec  87.6 KBytes   717 Kbits/sec  55.775 ms   22/   83 (27%)
-[  3]  7.0- 8.0 sec  7.18 KBytes  58.8 Kbits/sec  47.863 ms    6/   11 (55%)
-[  3]  8.0- 9.0 sec  7.18 KBytes  58.8 Kbits/sec  123.925 ms    5/   10 (50%)
-[  3]  9.0-10.0 sec  17.2 KBytes   141 Kbits/sec  68.616 ms   11/   23 (48%)
-[  3] 10.0-11.0 sec  0.00 Bytes  0.00 bits/sec  68.616 ms    0/    0 (nan%)
-[  3] 11.0-12.0 sec  51.7 KBytes   423 Kbits/sec  45.503 ms   11/   47 (23%)
-[  3] 12.0-13.0 sec  0.00 Bytes  0.00 bits/sec  45.503 ms    0/    0 (nan%)
-[  3] 13.0-14.0 sec  0.00 Bytes  0.00 bits/sec  45.503 ms    0/    0 (nan%)
-[  3] 14.0-15.0 sec  17.2 KBytes   141 Kbits/sec  56.778 ms    8/   20 (40%)
-[  3] 15.0-16.0 sec  5.74 KBytes  47.0 Kbits/sec  101.423 ms   14/   18 (78%)
-[  3]  0.0-16.4 sec  1.52 MBytes   773 Kbits/sec  174.364 ms  183/ 1264 (14%)
+[  3]  0.0- 1.0 sec   241 KBytes  1.98 Mbits/sec  24.221 ms   22/  190 (12%)
+[  3]  1.0- 2.0 sec   330 KBytes  2.70 Mbits/sec  19.142 ms   25/  255 (9.8%)
+[  3]  2.0- 3.0 sec   596 KBytes  4.88 Mbits/sec   9.924 ms   16/  431 (3.7%)
+[  3]  3.0- 4.0 sec   409 KBytes  3.35 Mbits/sec   6.850 ms   18/  303 (5.9%)
+[  3]  4.0- 5.0 sec   256 KBytes  2.09 Mbits/sec  22.495 ms   32/  210 (15%)
+[  3]  5.0- 6.0 sec   412 KBytes  3.38 Mbits/sec   4.840 ms   25/  312 (8%)
+[  3]  6.0- 7.0 sec   533 KBytes  4.36 Mbits/sec  17.580 ms   19/  390 (4.9%)
+[  3]  7.0- 8.0 sec   135 KBytes  1.11 Mbits/sec  28.805 ms   38/  132 (29%)
+[  3]  8.0- 9.0 sec  2.87 KBytes  23.5 Kbits/sec  89.460 ms   10/   12 (83%)
+[  3] 8.00-9.00 sec  1 datagrams received out-of-order
+[  3]  9.0-10.0 sec   253 KBytes  2.07 Mbits/sec   9.975 ms    0/  173 (0%)
+[  3] 9.00-10.00 sec  12 datagrams received out-of-order
+[  3] 10.0-11.0 sec   105 KBytes   858 Kbits/sec  35.530 ms   18/   91 (20%)
+[  3] 11.0-12.0 sec  53.1 KBytes   435 Kbits/sec  67.107 ms   28/   65 (43%)
+[  3] 12.0-13.0 sec   287 KBytes  2.35 Mbits/sec  22.012 ms   27/  227 (12%)
+[  3] 13.0-14.0 sec   293 KBytes  2.40 Mbits/sec  11.592 ms   21/  225 (9.3%)
+[  3] 14.0-15.0 sec   108 KBytes   882 Kbits/sec  26.347 ms   25/  100 (25%)
+[  3] 15.0-16.0 sec  10.0 KBytes  82.3 Kbits/sec  69.824 ms    0/    7 (0%)
+[  3] 15.00-16.00 sec  2 datagrams received out-of-order
+[  3]  0.0-16.1 sec  3.93 MBytes  2.04 Mbits/sec  69.824 ms  321/ 3123 (10%)
+[  3] 0.00-16.13 sec  15 datagrams received out-of-order
 read failed: Connection refused
 ^Cpi@MrBeam-BABA:~\> iperf -s -u -i 1
 ------------------------------------------------------------
@@ -106,25 +118,24 @@ Server listening on UDP port 5001
 Receiving 1470 byte datagrams
 UDP buffer size:  176 KByte (default)
 ------------------------------------------------------------
-[  3] local 10.42.0.1 port 5001 connected with 10.42.0.236 port 54253 (peer 2.1.5)
+[  3] local 10.42.0.1 port 5001 connected with 10.42.0.236 port 41998 (peer 2.1.5)
 [ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
-[  3]  0.0- 1.0 sec   510 KBytes  4.17 Mbits/sec   4.958 ms   37/  392 (9.4%)
-[  3]  1.0- 2.0 sec   132 KBytes  1.08 Mbits/sec  19.471 ms   19/  111 (17%)
-[  3]  2.0- 3.0 sec  51.7 KBytes   423 Kbits/sec  21.487 ms    8/   44 (18%)
-[  3]  3.0- 4.0 sec  64.6 KBytes   529 Kbits/sec  17.939 ms    0/   45 (0%)
-[  3]  4.0- 5.0 sec  0.00 Bytes  0.00 bits/sec  17.939 ms    0/    0 (nan%)
-[  3]  5.0- 6.0 sec  90.4 KBytes   741 Kbits/sec  96.432 ms   15/   78 (19%)
-[  3]  6.0- 7.0 sec  96.2 KBytes   788 Kbits/sec  26.659 ms   33/  100 (33%)
-[  3]  7.0- 8.0 sec  1.44 KBytes  11.8 Kbits/sec  111.658 ms    0/    1 (0%)
-[  3]  8.0- 9.0 sec  81.8 KBytes   670 Kbits/sec  41.113 ms   23/   80 (29%)
-[  3]  9.0-10.0 sec  61.7 KBytes   506 Kbits/sec  26.851 ms    9/   52 (17%)
-[  3] 10.0-11.0 sec  0.00 Bytes  0.00 bits/sec  26.851 ms    0/    0 (nan%)
-[  3] 11.0-12.0 sec  0.00 Bytes  0.00 bits/sec  26.851 ms    0/    0 (nan%)
-[  3] 12.0-13.0 sec  0.00 Bytes  0.00 bits/sec  26.851 ms    0/    0 (nan%)
-[  3] 13.0-14.0 sec   109 KBytes   894 Kbits/sec  157.536 ms    6/   82 (7.3%)
-[  3] 14.0-15.0 sec   419 KBytes  3.43 Mbits/sec  22.009 ms   28/  320 (8.8%)
-[  3] 15.0-16.0 sec  45.9 KBytes   376 Kbits/sec  30.231 ms    9/   41 (22%)
-[  3]  0.0-16.3 sec  1.65 MBytes   850 Kbits/sec  57.418 ms  188/ 1368 (14%)
+[  3]  0.0- 1.0 sec   138 KBytes  1.13 Mbits/sec  50.271 ms    2/   98 (2%)
+[  3]  1.0- 2.0 sec  8.61 KBytes  70.6 Kbits/sec  89.747 ms    2/    8 (25%)
+[  3]  2.0- 3.0 sec  40.2 KBytes   329 Kbits/sec  33.062 ms    3/   31 (9.7%)
+[  3]  3.0- 4.0 sec   228 KBytes  1.87 Mbits/sec  13.800 ms   25/  184 (14%)
+[  3]  4.0- 5.0 sec   301 KBytes  2.47 Mbits/sec   8.357 ms   20/  230 (8.7%)
+[  3]  5.0- 6.0 sec   389 KBytes  3.19 Mbits/sec   9.155 ms   21/  292 (7.2%)
+[  3]  6.0- 7.0 sec   257 KBytes  2.11 Mbits/sec  11.193 ms   21/  200 (10%)
+[  3]  7.0- 8.0 sec   425 KBytes  3.48 Mbits/sec  11.349 ms   23/  319 (7.2%)
+[  3]  8.0- 9.0 sec   422 KBytes  3.46 Mbits/sec   7.829 ms   26/  320 (8.1%)
+[  3]  9.0-10.0 sec   230 KBytes  1.88 Mbits/sec   5.731 ms   21/  181 (12%)
+[  3] 10.0-11.0 sec   613 KBytes  5.02 Mbits/sec   3.543 ms   20/  447 (4.5%)
+[  3] 11.0-12.0 sec   421 KBytes  3.45 Mbits/sec  18.084 ms   23/  316 (7.3%)
+[  3] 12.0-13.0 sec   632 KBytes  5.17 Mbits/sec   5.382 ms   25/  465 (5.4%)
+[  3] 13.0-14.0 sec   422 KBytes  3.46 Mbits/sec  10.888 ms   16/  310 (5.2%)
+[  3] 14.0-15.0 sec   485 KBytes  3.97 Mbits/sec   9.455 ms   25/  363 (6.9%)
+[  3]  0.0-15.1 sec  4.99 MBytes  2.78 Mbits/sec  13.327 ms  273/ 3835 (7.1%)
 read failed: Connection refused
 ^Cpi@MrBeam-BABA:~\> iperf -s -u -i 1
 ------------------------------------------------------------
@@ -132,26 +143,27 @@ Server listening on UDP port 5001
 Receiving 1470 byte datagrams
 UDP buffer size:  176 KByte (default)
 ------------------------------------------------------------
-[  3] local 10.42.0.1 port 5001 connected with 10.42.0.236 port 40660 (peer 2.1.5)
+[  3] local 10.42.0.1 port 5001 connected with 10.42.0.236 port 37294 (peer 2.1.5)
 [ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
-[  3]  0.0- 1.0 sec   320 KBytes  2.62 Mbits/sec   5.947 ms   32/  255 (13%)
-[  3]  1.0- 2.0 sec   372 KBytes  3.05 Mbits/sec  10.829 ms   18/  277 (6.5%)
-[  3]  2.0- 3.0 sec   198 KBytes  1.62 Mbits/sec  22.117 ms   26/  164 (16%)
-[  3]  3.0- 4.0 sec   202 KBytes  1.66 Mbits/sec  22.316 ms   22/  163 (13%)
-[  3]  4.0- 5.0 sec   360 KBytes  2.95 Mbits/sec   5.882 ms   10/  261 (3.8%)
-[  3]  5.0- 6.0 sec   375 KBytes  3.07 Mbits/sec  19.139 ms   19/  280 (6.8%)
-[  3]  6.0- 7.0 sec  20.1 KBytes   165 Kbits/sec  18.718 ms    5/   19 (26%)
-[  3]  7.0- 8.0 sec  1.44 KBytes  11.8 Kbits/sec  133.891 ms    0/    1 (0%)
-[  3]  8.0- 9.0 sec  43.1 KBytes   353 Kbits/sec  69.529 ms    1/   31 (3.2%)
-[  3]  9.0-10.0 sec  17.2 KBytes   141 Kbits/sec  177.279 ms    9/   21 (43%)
-[  3] 10.0-11.0 sec  20.1 KBytes   165 Kbits/sec  115.671 ms    1/   15 (6.7%)
-[  3] 11.0-12.0 sec  30.1 KBytes   247 Kbits/sec  57.422 ms    1/   22 (4.5%)
-[  3] 12.0-13.0 sec  0.00 Bytes  0.00 bits/sec  57.422 ms    0/    0 (nan%)
-[  3] 13.0-14.0 sec  1.44 KBytes  11.8 Kbits/sec  206.294 ms    3/    4 (75%)
-[  3] 14.0-15.0 sec  47.4 KBytes   388 Kbits/sec  58.289 ms   18/   51 (35%)
-[  3] 15.0-16.0 sec  0.00 Bytes  0.00 bits/sec  58.289 ms    0/    0 (nan%)
-[  3] 16.0-17.0 sec  0.00 Bytes  0.00 bits/sec  58.289 ms    0/    0 (nan%)
-[  3]  0.0-18.0 sec  1.99 MBytes   930 Kbits/sec  348.178 ms  197/ 1618 (12%)
+[  3]  0.0- 1.0 sec   312 KBytes  2.55 Mbits/sec  16.382 ms   26/  243 (11%)
+[  3]  1.0- 2.0 sec  31.6 KBytes   259 Kbits/sec  44.630 ms   14/   36 (39%)
+[  3]  2.0- 3.0 sec  96.2 KBytes   788 Kbits/sec  18.589 ms    1/   68 (1.5%)
+[  3]  3.0- 4.0 sec   178 KBytes  1.46 Mbits/sec  25.359 ms    0/  124 (0%)
+[  3]  4.0- 5.0 sec   254 KBytes  2.08 Mbits/sec   8.056 ms    0/  177 (0%)
+[  3]  5.0- 6.0 sec   340 KBytes  2.79 Mbits/sec   9.973 ms    6/  243 (2.5%)
+[  3]  6.0- 7.0 sec   345 KBytes  2.82 Mbits/sec   5.119 ms   30/  270 (11%)
+[  3]  7.0- 8.0 sec   231 KBytes  1.89 Mbits/sec  16.547 ms   29/  190 (15%)
+[  3]  8.0- 9.0 sec   126 KBytes  1.03 Mbits/sec  31.313 ms   27/  115 (23%)
+[  3]  9.0-10.0 sec  37.3 KBytes   306 Kbits/sec  47.285 ms   17/   43 (40%)
+[  3] 10.0-11.0 sec   102 KBytes   835 Kbits/sec  32.928 ms   31/  102 (30%)
+[  3] 11.0-12.0 sec   121 KBytes   988 Kbits/sec  27.985 ms   18/  102 (18%)
+[  3] 12.0-13.0 sec  28.7 KBytes   235 Kbits/sec  50.114 ms    2/   22 (9.1%)
+[  3] 12.00-13.00 sec  7 datagrams received out-of-order
+[  3] 13.0-14.0 sec   241 KBytes  1.98 Mbits/sec  19.839 ms   11/  179 (6.1%)
+[  3] 13.00-14.00 sec  2 datagrams received out-of-order
+[  3] 14.0-15.0 sec   419 KBytes  3.43 Mbits/sec   9.723 ms   23/  315 (7.3%)
+[  3]  0.0-15.1 sec  2.88 MBytes  1.60 Mbits/sec  14.133 ms  235/ 2289 (10%)
+[  3] 0.00-15.11 sec  9 datagrams received out-of-order
 read failed: Connection refused
 ^Cpi@MrBeam-BABA:~\> iperf -s -u -i 1
 ------------------------------------------------------------
@@ -159,91 +171,91 @@ Server listening on UDP port 5001
 Receiving 1470 byte datagrams
 UDP buffer size:  176 KByte (default)
 ------------------------------------------------------------
-[  3] local 10.42.0.1 port 5001 connected with 10.42.0.236 port 44287 (peer 2.1.5)
+[  3] local 10.42.0.1 port 5001 connected with 10.42.0.236 port 43711 (peer 2.1.5)
 [ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
-[  3]  0.0- 1.0 sec   649 KBytes  5.32 Mbits/sec   7.903 ms   50/  502 (10%)
-[  3]  1.0- 2.0 sec   349 KBytes  2.86 Mbits/sec  21.434 ms    7/  250 (2.8%)
-[  3]  2.0- 3.0 sec   580 KBytes  4.75 Mbits/sec   5.329 ms   18/  422 (4.3%)
-[  3]  3.0- 4.0 sec   471 KBytes  3.86 Mbits/sec   8.387 ms   21/  349 (6%)
-[  3]  4.0- 5.0 sec   294 KBytes  2.41 Mbits/sec   7.660 ms   23/  228 (10%)
-[  3]  5.0- 6.0 sec   431 KBytes  3.53 Mbits/sec  16.187 ms   11/  311 (3.5%)
-[  3]  6.0- 7.0 sec   376 KBytes  3.08 Mbits/sec  10.127 ms   32/  294 (11%)
-[  3]  7.0- 8.0 sec   212 KBytes  1.74 Mbits/sec  43.338 ms   27/  175 (15%)
-[  3]  8.0- 9.0 sec  12.9 KBytes   106 Kbits/sec  70.164 ms    4/   13 (31%)
-[  3]  9.0-10.0 sec  2.87 KBytes  23.5 Kbits/sec  114.565 ms    2/    4 (50%)
-[  3] 10.0-11.0 sec  0.00 Bytes  0.00 bits/sec  114.565 ms    0/    0 (nan%)
-[  3] 11.0-12.0 sec  0.00 Bytes  0.00 bits/sec  114.565 ms    0/    0 (nan%)
-[  3] 12.0-13.0 sec  0.00 Bytes  0.00 bits/sec  114.565 ms    0/    0 (nan%)
-[  3] 13.0-14.0 sec  2.87 KBytes  23.5 Kbits/sec  350.254 ms   29/   31 (94%)
-[  3] 14.0-15.0 sec  27.3 KBytes   223 Kbits/sec  168.990 ms    3/   22 (14%)
-[  3] 15.0-16.0 sec  63.2 KBytes   517 Kbits/sec  168.202 ms   13/   57 (23%)
-[  3]  0.0-16.4 sec  3.42 MBytes  1.75 Mbits/sec  160.721 ms  243/ 2679 (9.1%)
+[  3]  0.0- 1.0 sec   165 KBytes  1.35 Mbits/sec  22.364 ms   24/  139 (17%)
+[  3]  1.0- 2.0 sec   208 KBytes  1.71 Mbits/sec  17.817 ms   25/  170 (15%)
+[  3]  2.0- 3.0 sec   152 KBytes  1.25 Mbits/sec  15.281 ms   16/  122 (13%)
+[  3]  3.0- 4.0 sec   253 KBytes  2.07 Mbits/sec  25.457 ms   19/  195 (9.7%)
+[  3]  4.0- 5.0 sec   329 KBytes  2.69 Mbits/sec   7.701 ms   20/  249 (8%)
+[  3]  5.0- 6.0 sec   267 KBytes  2.19 Mbits/sec   6.941 ms   24/  210 (11%)
+[  3]  6.0- 7.0 sec   402 KBytes  3.29 Mbits/sec  14.268 ms   23/  303 (7.6%)
+[  3]  7.0- 8.0 sec   520 KBytes  4.26 Mbits/sec   4.545 ms   32/  394 (8.1%)
+[  3]  8.0- 9.0 sec   807 KBytes  6.61 Mbits/sec   9.955 ms   20/  582 (3.4%)
+[  3]  9.0-10.0 sec   689 KBytes  5.64 Mbits/sec   5.130 ms   25/  505 (5%)
+[  3] 10.0-11.0 sec   650 KBytes  5.33 Mbits/sec   4.557 ms   17/  470 (3.6%)
+[  3] 11.0-12.0 sec   452 KBytes  3.70 Mbits/sec   5.265 ms   23/  338 (6.8%)
+[  3] 12.0-13.0 sec   715 KBytes  5.86 Mbits/sec   8.610 ms   25/  523 (4.8%)
+[  3] 13.0-14.0 sec   728 KBytes  5.96 Mbits/sec   8.157 ms   27/  534 (5.1%)
+[  3] 14.0-15.0 sec   573 KBytes  4.69 Mbits/sec   2.165 ms   23/  422 (5.5%)
+[  3]  0.0-15.0 sec  6.79 MBytes  3.79 Mbits/sec   4.287 ms  343/ 5183 (6.6%)
 read failed: Connection refused
 ^Cpi@MrBeam-BABA:~\> iperf -s -i 1
 ------------------------------------------------------------
 Server listening on TCP port 5001
 TCP window size:  128 KByte (default)
 ------------------------------------------------------------
-[  4] local 10.42.0.1 port 5001 connected with 10.42.0.236 port 60634 (peer 2.1.5)
+[  4] local 10.42.0.1 port 5001 connected with 10.42.0.236 port 54364 (peer 2.1.5)
 [ ID] Interval       Transfer     Bandwidth
-[  4]  0.0- 1.0 sec   267 KBytes  2.19 Mbits/sec
-[  4]  1.0- 2.0 sec   129 KBytes  1.05 Mbits/sec
-[  4]  2.0- 3.0 sec  97.6 KBytes   799 Kbits/sec
-[  4]  3.0- 4.0 sec   117 KBytes   961 Kbits/sec
-[  4]  4.0- 5.0 sec  1.41 KBytes  11.6 Kbits/sec
-[  4]  5.0- 6.0 sec   126 KBytes  1.03 Mbits/sec
-[  4]  6.0- 7.0 sec   238 KBytes  1.95 Mbits/sec
-[  4]  7.0- 8.0 sec   219 KBytes  1.80 Mbits/sec
-[  4]  8.0- 9.0 sec   129 KBytes  1.05 Mbits/sec
-[  4]  9.0-10.0 sec   232 KBytes  1.90 Mbits/sec
-[  4] 10.0-11.0 sec   181 KBytes  1.48 Mbits/sec
-[  4] 11.0-12.0 sec   156 KBytes  1.27 Mbits/sec
-[  4] 12.0-13.0 sec   199 KBytes  1.63 Mbits/sec
-[  4] 13.0-14.0 sec   399 KBytes  3.27 Mbits/sec
-[  4] 14.0-15.0 sec   239 KBytes  1.96 Mbits/sec
-[  4] 15.0-16.0 sec   199 KBytes  1.63 Mbits/sec
-[  4] 16.0-17.0 sec   177 KBytes  1.45 Mbits/sec
-[  4] 17.0-18.0 sec   194 KBytes  1.59 Mbits/sec
-[  4] 18.0-19.0 sec   157 KBytes  1.29 Mbits/sec
-[  4] 19.0-20.0 sec  66.5 KBytes   544 Kbits/sec
-[  4] 20.0-21.0 sec  45.2 KBytes   371 Kbits/sec
-[  4] 21.0-22.0 sec   109 KBytes   892 Kbits/sec
-[  4] 22.0-23.0 sec  0.00 Bytes  0.00 bits/sec
-[  4] 23.0-24.0 sec  0.00 Bytes  0.00 bits/sec
-[  4] 24.0-25.0 sec  0.00 Bytes  0.00 bits/sec
-[  4] 25.0-26.0 sec  1.41 KBytes  11.6 Kbits/sec
-[  4] 26.0-27.0 sec  24.0 KBytes   197 Kbits/sec
-[  4] 27.0-28.0 sec  36.8 KBytes   301 Kbits/sec
-[  4] 28.0-29.0 sec  26.9 KBytes   220 Kbits/sec
-[  4] 29.0-30.0 sec  9.90 KBytes  81.1 Kbits/sec
-[  4] 30.0-31.0 sec  9.90 KBytes  81.1 Kbits/sec
-[  4] 31.0-32.0 sec  28.3 KBytes   232 Kbits/sec
-[  4] 32.0-33.0 sec  90.5 KBytes   741 Kbits/sec
-[  4] 33.0-34.0 sec   235 KBytes  1.92 Mbits/sec
-[  4] 34.0-35.0 sec   218 KBytes  1.78 Mbits/sec
-[  4] 35.0-36.0 sec  58.0 KBytes   475 Kbits/sec
-[  4] 36.0-37.0 sec   334 KBytes  2.73 Mbits/sec
-[  4] 37.0-38.0 sec   298 KBytes  2.44 Mbits/sec
-[  4] 38.0-39.0 sec   301 KBytes  2.47 Mbits/sec
-[  4] 39.0-40.0 sec   197 KBytes  1.61 Mbits/sec
-[  4] 40.0-41.0 sec  76.4 KBytes   626 Kbits/sec
-[  4] 41.0-42.0 sec   117 KBytes   961 Kbits/sec
-[  4] 42.0-43.0 sec   151 KBytes  1.24 Mbits/sec
-[  4] 43.0-44.0 sec  32.5 KBytes   266 Kbits/sec
-[  4] 44.0-45.0 sec   174 KBytes  1.42 Mbits/sec
-[  4] 45.0-46.0 sec  55.1 KBytes   452 Kbits/sec
-[  4] 46.0-47.0 sec   102 KBytes   834 Kbits/sec
-[  4] 47.0-48.0 sec  63.6 KBytes   521 Kbits/sec
-[  4] 48.0-49.0 sec   103 KBytes   846 Kbits/sec
-[  4] 49.0-50.0 sec  65.0 KBytes   533 Kbits/sec
-[  4] 50.0-51.0 sec  93.3 KBytes   765 Kbits/sec
-[  4] 51.0-52.0 sec   255 KBytes  2.09 Mbits/sec
-[  4] 52.0-53.0 sec   301 KBytes  2.47 Mbits/sec
-[  4] 53.0-54.0 sec   153 KBytes  1.25 Mbits/sec
-[  4] 54.0-55.0 sec   127 KBytes  1.04 Mbits/sec
-[  4] 55.0-56.0 sec   188 KBytes  1.54 Mbits/sec
-[  4] 56.0-57.0 sec  36.8 KBytes   301 Kbits/sec
-[  4] 57.0-58.0 sec   144 KBytes  1.18 Mbits/sec
-[  4] 58.0-59.0 sec   177 KBytes  1.45 Mbits/sec
-[  4] 59.0-60.0 sec   119 KBytes   973 Kbits/sec
-[  4]  0.0-61.0 sec  8.13 MBytes  1.12 Mbits/sec
+[  4]  0.0- 1.0 sec   341 KBytes  2.79 Mbits/sec
+[  4]  1.0- 2.0 sec   368 KBytes  3.01 Mbits/sec
+[  4]  2.0- 3.0 sec   513 KBytes  4.20 Mbits/sec
+[  4]  3.0- 4.0 sec   611 KBytes  5.00 Mbits/sec
+[  4]  4.0- 5.0 sec   563 KBytes  4.61 Mbits/sec
+[  4]  5.0- 6.0 sec   454 KBytes  3.72 Mbits/sec
+[  4]  6.0- 7.0 sec   655 KBytes  5.36 Mbits/sec
+[  4]  7.0- 8.0 sec   807 KBytes  6.61 Mbits/sec
+[  4]  8.0- 9.0 sec   629 KBytes  5.15 Mbits/sec
+[  4]  9.0-10.0 sec   597 KBytes  4.89 Mbits/sec
+[  4] 10.0-11.0 sec   781 KBytes  6.39 Mbits/sec
+[  4] 11.0-12.0 sec   867 KBytes  7.10 Mbits/sec
+[  4] 12.0-13.0 sec   590 KBytes  4.83 Mbits/sec
+[  4] 13.0-14.0 sec   665 KBytes  5.44 Mbits/sec
+[  4] 14.0-15.0 sec   341 KBytes  2.79 Mbits/sec
+[  4] 15.0-16.0 sec   424 KBytes  3.48 Mbits/sec
+[  4] 16.0-17.0 sec   354 KBytes  2.90 Mbits/sec
+[  4] 17.0-18.0 sec   331 KBytes  2.71 Mbits/sec
+[  4] 18.0-19.0 sec   253 KBytes  2.07 Mbits/sec
+[  4] 19.0-20.0 sec   359 KBytes  2.94 Mbits/sec
+[  4] 20.0-21.0 sec   788 KBytes  6.45 Mbits/sec
+[  4] 21.0-22.0 sec   594 KBytes  4.87 Mbits/sec
+[  4] 22.0-23.0 sec   624 KBytes  5.11 Mbits/sec
+[  4] 23.0-24.0 sec   851 KBytes  6.97 Mbits/sec
+[  4] 24.0-25.0 sec   802 KBytes  6.57 Mbits/sec
+[  4] 25.0-26.0 sec   520 KBytes  4.26 Mbits/sec
+[  4] 26.0-27.0 sec   800 KBytes  6.56 Mbits/sec
+[  4] 27.0-28.0 sec   745 KBytes  6.10 Mbits/sec
+[  4] 28.0-29.0 sec   615 KBytes  5.04 Mbits/sec
+[  4] 29.0-30.0 sec   462 KBytes  3.79 Mbits/sec
+[  4] 30.0-31.0 sec   436 KBytes  3.57 Mbits/sec
+[  4] 31.0-32.0 sec  0.00 Bytes  0.00 bits/sec
+[  4] 32.0-33.0 sec   119 KBytes   973 Kbits/sec
+[  4] 33.0-34.0 sec   438 KBytes  3.59 Mbits/sec
+[  4] 34.0-35.0 sec   539 KBytes  4.41 Mbits/sec
+[  4] 35.0-36.0 sec   467 KBytes  3.82 Mbits/sec
+[  4] 36.0-37.0 sec   376 KBytes  3.08 Mbits/sec
+[  4] 37.0-38.0 sec   509 KBytes  4.17 Mbits/sec
+[  4] 38.0-39.0 sec   458 KBytes  3.75 Mbits/sec
+[  4] 39.0-40.0 sec   387 KBytes  3.17 Mbits/sec
+[  4] 40.0-41.0 sec   764 KBytes  6.26 Mbits/sec
+[  4] 41.0-42.0 sec   761 KBytes  6.23 Mbits/sec
+[  4] 42.0-43.0 sec   380 KBytes  3.12 Mbits/sec
+[  4] 43.0-44.0 sec   592 KBytes  4.85 Mbits/sec
+[  4] 44.0-45.0 sec   313 KBytes  2.56 Mbits/sec
+[  4] 45.0-46.0 sec   173 KBytes  1.41 Mbits/sec
+[  4] 46.0-47.0 sec   380 KBytes  3.12 Mbits/sec
+[  4] 47.0-48.0 sec   365 KBytes  2.99 Mbits/sec
+[  4] 48.0-49.0 sec   634 KBytes  5.19 Mbits/sec
+[  4] 49.0-50.0 sec   830 KBytes  6.80 Mbits/sec
+[  4] 50.0-51.0 sec   478 KBytes  3.92 Mbits/sec
+[  4] 51.0-52.0 sec   462 KBytes  3.79 Mbits/sec
+[  4] 52.0-53.0 sec   443 KBytes  3.63 Mbits/sec
+[  4] 53.0-54.0 sec   485 KBytes  3.97 Mbits/sec
+[  4] 54.0-55.0 sec   454 KBytes  3.72 Mbits/sec
+[  4] 55.0-56.0 sec   577 KBytes  4.73 Mbits/sec
+[  4] 56.0-57.0 sec   488 KBytes  4.00 Mbits/sec
+[  4] 57.0-58.0 sec   501 KBytes  4.10 Mbits/sec
+[  4] 58.0-59.0 sec   286 KBytes  2.34 Mbits/sec
+[  4] 59.0-60.0 sec   173 KBytes  1.41 Mbits/sec
+[  4] 60.0-61.0 sec   266 KBytes  2.18 Mbits/sec
+[  4]  0.0-61.5 sec  30.3 MBytes  4.13 Mbits/sec
